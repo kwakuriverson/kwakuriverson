@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coming soon</title>
+    <title>Coming Soon</title>
     <style>
         body {
             background-color: black;
@@ -14,25 +14,28 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            font-family: Helvetica, bold;
+            font-family: helvetica, bold;
         }
         .coming-soon {
             font-size: 3rem;
             text-align: center;
         }
-        .spinning-wheel {
-            margin-top: 20px;
-            width: 25%;
+        .spinning-wheel img {
+            width: 15%; /* This should reduce the size of the GIF to 50% of its original width */
+            display: block; /* Ensure the image is treated as a block element */
+            margin: 20px auto 0; /* Margin to space above the footer */
         }
         .footer {
             position: absolute;
             bottom: 20px;
             font-size: 0.75rem;
+            text-align: center;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="coming-soon">coming soon</div>
+    <div class="coming-soon">Coming Soon</div>
     <div class="spinning-wheel">
         <img src="spinning-wheel.gif" alt="Spinning Wheel">
     </div>
